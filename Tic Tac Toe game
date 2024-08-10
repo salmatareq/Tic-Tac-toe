@@ -44,42 +44,42 @@ int main() {
 						else cout << x[i][j] << " ";
 					}cout << "\n";
 
-				}if (ox[0][0] == ox[0][1] && ox[0][2] == ox[0][1] && ox[0][1] == "x")//صف اول
+				}if (ox[0][0] == ox[0][1] && ox[0][2] == ox[0][1] && ox[0][1] == "x")
 				{
 					s = "player 1 won";
 					cout << "player 1 won";
 				}
-				else if (ox[1][0] == ox[1][1] && ox[1][2] == ox[1][0] && ox[1][0] == "x")//صف ثاني
+				else if (ox[1][0] == ox[1][1] && ox[1][2] == ox[1][0] && ox[1][0] == "x")
 				{
 					s = "player 1 won";
 					cout << "player 1 won";
 				}
-				else if (ox[2][0] == ox[2][1] && ox[2][0] == ox[2][2] && ox[2][2] == "x")//صف ثالث
+				else if (ox[2][0] == ox[2][1] && ox[2][0] == ox[2][2] && ox[2][2] == "x")
 				{
 					s = "player 1 won";
 					cout << "player 1 won";
 				}
-				else if (ox[0][0] == ox[1][0] && ox[2][0] == ox[1][0] && ox[0][0] == "x")//عمود اول
+				else if (ox[0][0] == ox[1][0] && ox[2][0] == ox[1][0] && ox[0][0] == "x")
 				{
 					s = "player 1 won";
 					cout << "player 1 won";
 				}
-				else if (ox[0][2] == ox[1][2] && ox[2][2] == ox[1][2] && ox[2][2] == "x")//عمود ثالث
+				else if (ox[0][2] == ox[1][2] && ox[2][2] == ox[1][2] && ox[2][2] == "x")
 				{
 					s = "player 1 won";
 					cout << "player 1 won";
 				}
-				else if (ox[0][1] == ox[1][1] && ox[2][1] == ox[1][1] && ox[1][1] == "x")//عمود ثاني
+				else if (ox[0][1] == ox[1][1] && ox[2][1] == ox[1][1] && ox[1][1] == "x")
 				{
 					s = "player 1 won";
 					cout << "player 1 won";
 				}
-				else if (ox[1][1] == ox[2][2] && ox[0][0] == ox[2][2] && ox[2][2] == "x")//قطر رئيسي
+				else if (ox[1][1] == ox[2][2] && ox[0][0] == ox[2][2] && ox[2][2] == "x")
 				{
 					s = "player 1 won";
 					cout << "player 1 won";
 				}
-				else if (ox[0][2] == ox[1][1] && ox[2][0] == ox[1][1] && ox[1][1] == "x")//قطر غير رئيسي
+				else if (ox[0][2] == ox[1][1] && ox[2][0] == ox[1][1] && ox[1][1] == "x")
 				{
 					s = "player 1 won";
 					cout << "player 1 won";
@@ -113,42 +113,42 @@ int main() {
 					}cout << "\n";
 				}
 
-				if (ox[0][0] == ox[0][1] && ox[0][2] == ox[0][1] && ox[0][1] == "o")//صف اول
+				if (ox[0][0] == ox[0][1] && ox[0][2] == ox[0][1] && ox[0][1] == "o")
 				{
 					s = "player 2 won";
 					cout << "player 2 won";
 				}
-				else if (ox[1][0] == ox[1][1] && ox[1][2] == ox[1][0] && ox[1][0] == "o")//صف ثاني
+				else if (ox[1][0] == ox[1][1] && ox[1][2] == ox[1][0] && ox[1][0] == "o")
 				{
 					s = "player 2 won";
 					cout << "player 2 won";
 				}
-				else if (ox[2][0] == ox[2][1] && ox[2][0] == ox[2][2] && ox[2][2] == "o")//صف ثالث
+				else if (ox[2][0] == ox[2][1] && ox[2][0] == ox[2][2] && ox[2][2] == "o")
 				{
 					s = "player 2 won";
 					cout << "player 2 won";
 				}
-				else if (ox[0][0] == ox[1][0] && ox[2][0] == ox[1][0] && ox[0][0] == "o")//عمود اول
+				else if (ox[0][0] == ox[1][0] && ox[2][0] == ox[1][0] && ox[0][0] == "o")
 				{
 					s = "player 2 won";
 					cout << "player 2 won";
 				}
-				else if (ox[0][2] == ox[1][2] && ox[2][2] == ox[1][2] && ox[2][2] == "o")//عمود ثالث
+				else if (ox[0][2] == ox[1][2] && ox[2][2] == ox[1][2] && ox[2][2] == "o")
 				{
 					s = "player 2 won";
 					cout << "player 2 won";
 				}
-				else if (ox[0][1] == ox[1][1] && ox[2][1] == ox[1][1] && ox[1][1] == "o")//عمود ثاني
+				else if (ox[0][1] == ox[1][1] && ox[2][1] == ox[1][1] && ox[1][1] == "o")
 				{
 					s = "player 2 won";
 					cout << "player 2 won";
 				}
-				else if (ox[1][1] == ox[2][2] && ox[0][0] == ox[2][2] && ox[2][2] == "o")//قطر رئيسي
+				else if (ox[1][1] == ox[2][2] && ox[0][0] == ox[2][2] && ox[2][2] == "o")
 				{
 					s = "player 2 won";
 					cout << "player 2 won";
 				}
-				else if (ox[0][2] == ox[1][1] && ox[2][0] == ox[1][1] && ox[1][1] == "o")//قطر غير رئيسي
+				else if (ox[0][2] == ox[1][1] && ox[2][0] == ox[1][1] && ox[1][1] == "o")
 				{
 					s = "player 2 won";
 					cout << "player 2 won";
